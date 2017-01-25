@@ -1,0 +1,28 @@
+#gallery {
+	width: 100%;
+}
+
+figure {
+	width: 33%;
+}
+
+figure img{
+	width: 100%;
+}
+
+/*responsywnośc */
+
+@media (min-width:992px) {
+    img {
+        width: 33%;
+    }
+
+@media (min-width:768px) and (max-width: 992px ) {
+    img {
+        width: 50%;
+    }
+	
+@media (max-width: 768px ) {
+    img {
+        width: 100%;
+    }
